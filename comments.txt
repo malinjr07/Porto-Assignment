@@ -1,0 +1,4 @@
+/* the geust function store the hitted link, once login done, then it'll redirect to client's enquired page. */
+/* is() function is to determine whichlink is having hits, if the url is special, then it'll redirect to login page.once the login is done, then the user will redirect to the required page */ 
+/* In this method, one customize which page need verification, what kind of verification and where to do the verification. */
+/* return $request->expectsJson() ? response()->json(['message' => $exception->getMessage()], 401) : redirect()->guest($exception->redirectTo() ?? route('login')); */ /* this line idecates that if this return is true, then the response function will show the message. But if that is false, then the page will redirect to route. these two are very critical operator that was introduced in php 7. go to https: //www.w3schools.com/php/php_operators.asp for full details */
